@@ -1,0 +1,235 @@
+body {
+  background-color: #F9F7F7;
+  margin: 0;
+  font-family: Arial
+}
+
+hr {
+  border-style: dotted none none;
+  color: #112D4E;
+  height: 15px;
+  width: 10%;
+  border-width: 7px;
+}
+
+.top {
+  margin: 0;
+}
+
+.hi {
+  text-align: center;
+  color: #112D4E;
+  font-size: 50px;
+  margin: 0;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  margin: 0;
+  color: #112D4E;
+  font-size: 100px;
+}
+
+.namedes {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  color: #112D4E;
+}
+
+.cloud1 {
+  margin: 0;
+  margin-left: 15%;
+  position: relative;
+  top: 195px;
+  }
+
+.mountain {
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 80px;
+}
+
+.cloud2 {
+  display: inline-block;
+  margin-left: 65%;
+  position: relative;
+  bottom: 85px;
+}
+
+.cloud3 {
+  display: inline-block;
+  margin-left: 35%;
+  position: relative;
+  bottom: 80px;
+}
+
+.middle {
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  background-color: #DBE2EF;
+}
+
+.profile {
+  text-align: center;
+  color: #112D4E;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.skills {
+  text-align: center;
+  color: #112D4E;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.skill-row {
+  color: #112D4E;
+  padding-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.contact-me {
+  text-align: center;
+  color: #112D4E;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.btn {
+  color: #112D4E;
+}
+
+.middle2 {
+  color: #112D4E;
+  margin-left: 12%;
+  margin-right: 7%;
+
+}
+
+.bottom {
+  text-align: center;
+  color: #112D4E;
+  margin: 0;
+  background-color:  #3F72AF;
+  padding: 20px;
+}
+
+button {
+ appearance: none;
+ background-color: transparent;
+ border: 0.125em solid #1A1A1A;
+ border-radius: 0.9375em;
+ box-sizing: border-box;
+ color: #3B3B3B;
+ cursor: pointer;
+ display: inline-block;
+ font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-size: 16px;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ min-height: 3.75em;
+ min-width: 0;
+ outline: none;
+ padding: 1em 2.3em;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+}
+
+button:disabled {
+ pointer-events: none;
+}
+
+button:hover {
+ color: #fff;
+ background-color: #1A1A1A;
+ box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+ transform: translateY(-2px);
+}
+
+button:active {
+ box-shadow: none;
+ transform: translateY(0);
+}
+
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px
+}
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
